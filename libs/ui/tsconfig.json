@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
     "allowJs": true,
+    "lib": ["DOM"],
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
+    "strict": false,
     "jsx": "preserve",
     "jsxImportSource": "vue",
     "moduleResolution": "node",
