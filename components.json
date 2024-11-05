@@ -12,7 +12,8 @@
   },
   "framework": "vite",
   "aliases": {
-    "components": "libs/ui/src/components",
-    "utils": "@libs/ui"
+    "components": "@libs/ui/primitives/*",
+    "ui": "libs/ui/src/primitives",
+    "utils": "@libs/ui/utils"
   }
 }

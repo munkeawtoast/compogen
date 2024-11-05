@@ -31,7 +31,8 @@
     "target": "es2023",
     "verbatimModuleSyntax": false,
     "paths": {
-      "@libs/ui": ["libs/ui/src/index.ts"],
+      "@libs/ui/primitives/*": ["libs/ui/src/primitives/*"],
+      "@libs/ui/utils": ["libs/ui/src/utils.ts"],
       "@libs/http": ["libs/http/src/index.ts"]
     }
   }
