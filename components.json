@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shadcn-vue.com/schema.json",
+  "style": "default",
+  "typescript": true,
+  "tsConfigPath": "./tsconfig.base.json",
+  "tailwind": {
+    "config": "tailwind.config.js",
+    "css": "style.base.css",
+    "baseColor": "slate",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "framework": "vite",
+  "aliases": {
+    "components": "libs/ui/src/components",
+    "utils": "@libs/ui"
+  }
+}

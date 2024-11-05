@@ -33,8 +33,33 @@ module.exports = [
           ],
         },
       ],
+      'sort-imports': [
+        'error',
+        {
+          ignoreCase: false,
+          ignoreDeclarationSort: false,
+          ignoreMemberSort: false,
+          memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
+          allowSeparatedGroups: false,
+        },
+      ],
     },
   },
+  ...compat
+    .config({
+      extends: ['prettier'],
+      plugins: ['prettier'],
+      rules: {
+        'prettier/prettier': 'error',
+      },
+    })
+    .map(config => ({
+      ...config,
+      files: ['**/*.ts', '**/*.tsx', '**/*.js', '**/*.jsx', '**/*.vue'],
+      rules: {
+        ...config.rules,
+      },
+    })),
   ...compat.config({ extends: ['plugin:@nx/typescript'] }).map(config => ({
     ...config,
     files: ['**/*.ts', '**/*.tsx'],

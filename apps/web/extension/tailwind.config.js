@@ -1,4 +1,6 @@
 const baseConfig = require('../../../tailwind.config')
+const { createGlobPatternsForDependencies } = require('@nx/vue/tailwind')
+const { join } = require('path')
 
 module.exports = {
   content: [
