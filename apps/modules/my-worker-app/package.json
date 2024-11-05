@@ -1,5 +1,4 @@
 {
   "name": "my-worker-app",
-  "private": true,
-  "type": "module"
+  "private": true
 }
