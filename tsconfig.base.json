@@ -13,7 +13,7 @@
     "importHelpers": true,
     "incremental": true,
     "isolatedModules": true,
-    "lib": ["es2022"],
+    "lib": ["ES2023.Array", "ES2023", "ES2023.Collection"],
     "module": "ESNext",
     "moduleResolution": "node",
     "noEmitOnError": true,
@@ -28,7 +28,7 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
-    "target": "es2022",
+    "target": "es2023",
     "verbatimModuleSyntax": false,
     "paths": {
       "@libs/ui": ["libs/ui/src/index.ts"],
