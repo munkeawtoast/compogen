@@ -1,7 +1,7 @@
 {
   "name": "my-worker-app",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/my-worker-app/src",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/modules/my-worker-app/src",
   "projectType": "application",
   "tags": [],
   "targets": {
@@ -15,7 +15,7 @@
       "executor": "@nx/vite:test",
       "outputs": ["{options.reportsDirectory}"],
       "options": {
-        "reportsDirectory": "../../coverage/apps/my-worker-app"
+        "reportsDirectory": "../../../coverage/apps/modules/my-worker-app"
       }
     },
     "deploy": {

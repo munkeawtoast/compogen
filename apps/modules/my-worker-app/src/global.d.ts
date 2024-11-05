@@ -3,5 +3,5 @@ declare module 'cloudflare:test' {
 }
 
 declare interface Env {
-  KV_NAMESPACE: KVNamespace;
+  KV_NAMESPACE: KVNamespace
 }
