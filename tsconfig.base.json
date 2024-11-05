@@ -31,7 +31,7 @@
     "target": "es2022",
     "verbatimModuleSyntax": false,
     "paths": {
-      "@compogen/http": ["libs/http/src/index.ts"]
+      "@libs/http": ["libs/http/src/index.ts"]
     }
   }
 }
