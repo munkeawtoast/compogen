@@ -1,4 +1,5 @@
-const baseConfig = require('../../../tailwind.config')
+//apps/web/tailwind.config.js
+const baseConfig = require('../../tailwind.config')
 
 module.exports = {
   content: [

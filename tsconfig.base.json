@@ -31,6 +31,7 @@
     "target": "es2022",
     "verbatimModuleSyntax": false,
     "paths": {
+      "@libs/ui": ["libs/ui/src/index.ts"],
       "@libs/http": ["libs/http/src/index.ts"]
     }
   }
